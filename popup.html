@@ -1,0 +1,39 @@
+
+<div class="popup">
+	<h3 class="title__name title__name_dark">Купальник San-Marino</h3>
+	<div class="popup__wear">
+		<div class="fotorama" data-width="100%" data-minwidth="320" data-maxwidth="820" data-maxheight="300" data-minheight="100" data-allowfullscreen="native" data-nav="thumbs" data-loop="true" data-autoplay="true"><img src="./img/wear1-1.png"/><img src="./img/wear1-2.png"/><img src="./img/wear1-3.png"/></div>
+		<form class="form" id="form">
+			<div class="popup__first">
+				<p class="section__description">Размеры: S, M, L</p>
+				<p class="section__description">Материал: Nylon, Spandex</p>
+			</div>
+			<div class="form-inputs">
+				<div class="form-group">
+					<label for="lead_city">В каком Вы городе?</label>
+					<input class="group__form form-control" id="lead_city" type="name" placeholder="к примеру, Киев"/>
+				</div>
+				<div class="form-group">
+					<label for="lead_phone">Номер телефона</label>
+					<input class="group__input form-control" id="lead_phone" type="phone" placeholder="+38 123 456 7890"/>
+				</div>
+			</div>
+			<div class="delivery">
+				<label for="lead_delivery">Как желаете получить?
+					<select class="group__select form-control" id="lead_delivery">
+						<option>Доставка Новой Почтой</option>
+						<option>Приеду в шоурум (г.Киев)</option>
+						<option>Пока не знаю. Жду звонка</option>
+					</select>
+				</label>
+			</div>
+			<p class="deliv">
+				Сразу после отправки заявки Вы окажетесь на странице определения размера.
+				Мы это сделали, чтобы вам было проще определиться точно с нужным размером, пока мы звоним вам.
+				Если вы не уверены в размере - мы поможем по телефону.
+			</p>
+			<button class="btn-lg btn-success" id="send" type="submit">Отправить заявку</button>
+			<button class="btn-lg btn-success" id="tel" type="submit">Заказать звонок</button><a class="close" title="Закрыть" href="#close"></a>
+		</form>
+	</div>
+</div>

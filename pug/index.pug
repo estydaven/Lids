@@ -1,0 +1,270 @@
+extends _template
+
+block content
+    .site-wrapper
+        .wrapper
+            .container
+                .header                                   
+                    nav.navbar.navbar-inverse.navbar-static-top                   
+                        .navbar-header
+                            button.navbar-toggle(type='button', data-toggle='collapse', data-target='#responsive-menu')
+                                span.sr-only Открыть навигацию
+                                span.icon-bar
+                                span.icon-bar
+                                span.icon-bar
+                    #responsive-menu.collapse.navbar-collapse
+                        ul.navbar-nav
+                            li.nav-item
+                                .navbar-brand(href='#') Online-cast.ru
+                            li.nav-item
+                                a.nav-link(href='#') Обо мне                            
+                            li.nav-item
+                                a.nav-link(href='#') Услуги
+                            li.nav-item
+                                a.nav-link(href='#') Стратегия
+                            li.nav-item
+                                a.nav-link(href='#') Отзывы
+                            li.nav-item.nav-item_last
+                                a.nav-link(href='#') Для опытных
+                    .nav-item
+                        .nav-link.nav-phone  
+                            i.fa.fa-phone(aria-hidden='true')
+                            | +7-913-714-5645                            
+                        button.btn.btn-top(type='button', data-toggle='modal', data-target='#modal-1') Заказать звонок     
+
+                .content__title
+                    h1.hero__title Услуги лидогенерации для инфобизнеса                    
+                    h2.hero__subtitle 
+                        | Привлекаем клиентов в ваш инфобизнес 
+                        br 
+                        | с оплатой за результат
+                    p.hero__descr 
+                     | Запросите индивидуальные условия работы 
+                     br
+                     | с вашим инфобизнесом
+                    button.button.button_bottom(type='button', data-toggle='modal', data-target='#modal-2') Запросить
+                        
+                     
+                .content__down
+                    a(href="#", data-div="down").down__pic
+                        img(src='./img/down.png')
+                
+                .row                                        
+                    .pic-descr
+                        h2.descr-descr Я знаю, как вывести инфобизнес на новый уровень
+                        p Привет! Уже более 3-х лет я помогаю привлекать подписчиков в базу и собирать вебираны под ключ. Также провожу консультации по трафику в инфобизнес! Работаю с инфобизнесменами разного уровня.
+                        p Пропагандирую в работе: эффективность, прозрачность и честность.
+                        p Для каждого партнера прорабатываю индивидуальную стратегию продвижения, в которой подбираю эффективные рекламные каналы, исходя из ниши и необходимого объема трафика.
+                        p Моя цель - оградить Вас от дебрей массовой лидогенерации и дать возможность сфокусироваться на качестве продукта.
+                        p Обучалась в Бизнес Молодости "Отдел продаж за 60 дней", коучингах Рустама Назипова "Лид-менеджер" и Константина Артемьева, а такде у Андрея Парабеллума, Николая Мрочковского, Азамата Ушанова и других экспертов в области инфобизнеса.
+                        p.quests Оставьте заявку на бесплатную консультацию и получите ответы на ваши вопросы по привлечению клиентов, анализ вашей ниши и прогноз по эффективности рекламных каналов.
+                        .button-down
+                            button.button.button-butt.button_bottom(type='button', data-toggle='modal', data-target='#modal-2') Запросить
+                                 
+                                   
+        .clear
+        a(name="about" id="about")
+        .wrapper__sec#down
+            .container                
+                .text__content                   
+                    h1.header__head Мои основные услуги
+                    .texts
+                        .text
+                            .text__image
+                                img.text__img(src='./img/email-base.png')
+                            h3.text__title Подписчики в email-базу
+                            p В сжатые сроки приведу к вам в базу необходимое количество подписчиков.
+                            p Это будет именно ваша целевая аудитория, которой будут интересны ваши курсы/тренинги/коучинг и т.д.
+                            p Стоимость рассчитывается в зависимости от вашей ниши и требуемого объема подписчиков.                       
+                        .text
+                            .text__image
+                                img.text__img(src='./img/team.png')
+                            h3.text__title Участники на вебинар
+                            p Соберу на Ваш вебинар/онлайн семинар от 50 до 1000 участников вашей целевой аудитории.
+                            p Вы платите только за тех, кто пришел на вебинар, а не просто попал в базу.
+                            p Стоимость рассчитывается в зависимости от вашей ниши и требуемого объема подписчиков.  
+                        .text
+                            .text__image
+                                img.text__img(src='./img/percent.png')
+                            h3.text__title Продажи "под ключ" за %
+                            p Организую процесс лидогенерации и продаж в вашем инфобизнесе за процент от прибыли.
+                            p Вы платите только если зарабатываете сами. процент обсуждаем индивидуально.
+                            p.none Стоимость рассчитывается в зависимости от вашей ниши и требуемого объема подписчиков.                                                                            
+                            
+        .wrapper__fourth
+            .container
+                .forma
+                    form#form(method='post', action='')
+                        h2.form__title Запросите индивидуальные условия работы с вашим инфобизнесом
+                        .content__form                            
+                            input.form__name(type='text', name='name', required='required', placeholder='* Ваша страничка в VK')
+                            input.form__phone(type='text', name='phone', required='required', placeholder='* Ваш email')
+                            input.button.button-form(type='submit', name='sended', value='Запросить')
+        h1.cont-text 
+            | Помогу поставить на автомат привлечение клиентов 
+            br
+            | в ваш инфобизнес  
+        .wrapper__third
+            .container                             
+                .wrapper__left 
+                .wrapper__right
+                    .text__one
+                        h3 Разработаю стратегию и подберу наиболее эффективные рекламные каналы
+                        p Любая работа начинается с постановки целей и задач. В зависимости от ниши, сроков и количества лидов, составляю план, в который будет входить следующее:
+                        ol.list 
+                            li Описание целевой аудитории;
+                            li Выбор рекламных каналов;
+                            li Макет посадочной страницы;
+                            li Мероприятие, которое является эффективной моделью
+                    .text__two
+                        h3 Работаю над созданием и развитием Вашей посадочной страницы
+                        p Если у вас есть подписная страница, то мы обсудим вашу конверсию трафика в лида и попробуем улучшить ее. Если сайта нет, то создадим его бесплатно под ваш бизнес.
+                        p Обычно конверсия моих одностраничных сайтов для инфобизнеса доходит до 40%.
+                    .text__three
+                        h3 Работаю только с релевантным трафиком
+                        p Я работаю только с вашей целевой аудиторией, исключая "левых" подписчиков и фрод.
+                        p Это достигается за счет "белых" инструментов продвижения: 
+                        ol.list 
+                            li таргетированная реклама в Вконтакте;
+                            li продвижение с помощью рекламы в группах Вконтакте;
+                            li организация тематического мероприятия Вконтакте и т.д.
+                        p В любой момент времени вы можете запросить доступ к рекламным кампаниям и убедиться в качестве трафика.    
+                    .text__four
+                        h3 Сведу ваши риски к нулю
+                        p Работаю по безрисковой (для вас) модели сотрудничества. Вы платите только за конкретные результаты работы, а именно за привлеченных подписчиков, участников на вебинар или фиксированный процент с продаж продукта.
+                    .text__five
+                        h3 Дам развернутые рекомендации по увеличению сделок после окончания вебинара
+                        p Испытываете проблемы с продажами? Тогда я готова предоставить вам подробные рекомендации как увеличить процент оплат после вебинаров или в email-рассылке.
+        a(name="trainings" id="trainings")        
+                
+        .wrapper__fifth
+            .container.content_five
+                h1.header__first.header__first_top Работа над вашим проектом за процент от продаж
+                .percent
+                    .percent__text
+                        p Организую процесс лидогенерации и продаж в вашем инфобизнесе за процент от продаж. В рамках этой услуги я делаю все, чтобы извлечь из вашего бизнеса максимум прибыли.
+                        p Услуга доступна если у вас уже работающий инфобизнес, который приносит прибыль.
+                        .button-butt
+                            button.button.button_butt
+                                a.button-btn(href="#win7") Узнать подробнее
+                            a#win7.overlay(href='#x')  
+                            include popup-training 
+                    .percent__image
+                        img(src="./img/img-1.png") 
+                #slider
+                    input#slide1(type='radio', name='slider', checked='')
+                    input#slide2(type='radio', name='slider')
+                    input#slide3(type='radio', name='slider')                    
+                    #slides
+                        #overflow
+                            .inner
+                                .page
+                                    img(src='./img/slide-1.png', alt='')
+                                .page
+                                    img(src='./img/slide-2.png', alt='')
+                                .page
+                                    img(src='./img/slide-3.png', alt='')
+                                
+                    #controls
+                        label(for='slide1')
+                        label(for='slide2')
+                        label(for='slide3')                                                     
+                
+        .wrapper__sixth
+            .container
+                h1 Видео-отзывы и промо-видео с наших мероприятий
+                .video
+                    .video__row
+                        .videos
+                            .iframe
+                                <iframe width="450" height="250" src="https://www.youtube.com/embed/M-XtB0R3ri4" frameborder="0" allowfullscreen></iframe> 
+                            p Мастер-класс по созданию сайтов 
+                        .videos 
+                            .iframe   
+                                <iframe width="450" height="250" src="https://www.youtube.com/embed/PhDXRCLsqz4" frameborder="0" allowfullscreen></iframe>                
+                            p Мастер-класс по созданию сайтов
+                    .video__row
+                        .videos
+                            .iframe
+                                <iframe width="450" height="250" src="https://www.youtube.com/embed/YRNIndNHloU" frameborder="0" allowfullscreen></iframe>
+                            p Мастер-класс по созданию сайтов 
+                        .videos 
+                            .iframe   
+                                <iframe width="450" height="250" src="https://www.youtube.com/embed/PlYcPIf5_8s" frameborder="0" allowfullscreen></iframe>         
+                            p Мастер-класс по созданию сайтов 
+                    .video__row
+                        .video__img
+                            img(src='./img/img-2.png')
+                        .video__text
+                            h2 Условия работы для опытных инфобизнесменов
+                            p Если вы уже опытный инфопредприниматель с большой базой, хорошими отызвами и регулярно проводите вебинары, то для вас доступна система пост-оплаты.
+                            .button-butt
+                                button.button.button_butt
+                                    a.button-btn(href="#win7") Узнать подробнее
+                                a#win7.overlay(href='#x')  
+                                include popup-training                  
+        #updown
+        .wrapper__eleventh
+            .container
+                .content__content
+                    .content-picture
+                    .footer__form
+                        form.form(method='post', action='')
+                            .forms
+                                h1.footer__title  Бесплатная консультация по привлечению трафика
+                                h3.footer__descr Оставьте заявку прямо сейчас и получите консультацию по эффективным методам рекламы
+                                input.footer__name(type='text', name='name', required='required', placeholder='Ваше имя')
+                                input.footer__phone(type='text', name='phone', required='required', placeholder='Ваш телефон')
+                                input.footer__question(type="text", name="text", required="required", placeholder='Напишите вопрос')
+                                button.footer__button(type='submit', name='sended') Получить консультацию
+            .footer                
+                .container
+                    .content__footer
+                        .footer__text
+                            h4 Online-cast.ru
+                            p Услуги для инфобизнеса
+                        .confidential
+                            a(href="#") Политика конфиденциальности
+                        .footer__social
+                            a(href="#")
+                                img(src='./img/insta.png').down__pic
+                            a(href="#") 
+                                img(src='./img/vk-footer.png')
+    #modal-1.modal.fade
+        .modal-dialog.modal-lg
+            .modal-content
+                .modal-header
+                    button.close(type='button', data-dismiss='modal')
+                        i.fa.fa-close
+                    h4.modal-title Название окна
+                .modal-body
+                    p Это модальное окно
+                .modal-footer
+                    button.btn.btn-danger(type='button', data-dismiss='modal')
+                        | Отмена  
+    #modal-2.modal.fade
+        .modal-dialog.modal-lg
+            .modal-content
+                .modal-header
+                    button.close(type='button', data-dismiss='modal')
+                        i.fa.fa-close
+                    h4.modal-title Название окна
+                .modal-body
+                    p Это модальное окно
+                .modal-footer
+                    button.btn.btn-danger(type='button', data-dismiss='modal')
+                        | Отмена         
+    #modal-3.modal.fade
+        .modal-dialog.modal-lg
+            .modal-content
+                .modal-header
+                    button.close(type='button', data-dismiss='modal')
+                        i.fa.fa-close
+                    h4.modal-title Название окна
+                .modal-body
+                    p Это модальное окно
+                .modal-footer
+                    button.btn.btn-danger(type='button', data-dismiss='modal')
+                        | Отмена                                                                  
+
+

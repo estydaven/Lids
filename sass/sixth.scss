@@ -1,0 +1,126 @@
+.wrapper__eighth{
+  position: relative;
+  height: 1050px;
+  background-color: #ffffff;
+  display: flex;
+}
+
+.price__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.price{
+  display: flex;
+  position: relative;
+
+  p{
+    position: absolute;
+    top: -30px;
+    left: 0;
+  }
+}
+
+.price__item{
+  width: 290px;
+  height: 240px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+  position: relative;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, .4);
+  padding: 30px;
+
+  h3{
+    font-family: 'HelveticaNeueCyr';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    margin-bottom: 15px;
+  }
+}
+
+.price-item{
+  font-family: 'HelveticaNeueCyr';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  margin-left: 10px;
+  width: 240px;
+
+  &_bold{
+    font-size: 15px;
+  }
+
+  &:before{
+    content: "-";
+    display: block;
+    position: absolute;
+    left: 30px;
+  }
+}
+
+.price__descr{
+  font-family: 'HelveticaNeueCyr';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.line__thing{
+  width: 100px;
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #444444;
+}
+
+.price__number{
+  font-family: 'HelveticaNeueCyr';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.button__price{
+  outline: none;
+  text-decoration: none;
+  width: 120px;
+  margin-left: 50px;
+  color: #ffffff;
+  background: #f05c04;
+  padding: 7px;
+  border: none;
+  cursor: pointer;
+  transition: .5s;
+
+  &_message{
+    width: 180px;
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+  }
+
+  &_msg{
+    width: 150px;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    z-index: 31;
+  }
+
+
+  &:hover{
+    background: #cf530a;
+  }
+}
+
+.menu{
+  background: transparent;
+  border: none;
+  display: flex;
+  position: absolute;
+  right: 40px;
+  margin-top: 35px;
+}

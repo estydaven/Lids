@@ -1,0 +1,89 @@
+.wrapper__third{
+  background: url(../img/bg-4.png);
+  height: 1100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #ffffff;
+  position: relative;
+  background-size: cover;
+  margin-bottom: 100px;
+}
+
+.wrapper__left{
+  width: 350px;
+  float: left;  
+  position: relative;
+
+  p{
+    margin-bottom: 30px;
+    color: #ffffff;
+    width: 330px;
+    font-family: 'HelveticaNeueCyr';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+  }
+}
+
+.left{
+  font-family: 'Proxima Nova Lt';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 46px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.wrapper__right{
+  width: 400px;
+  float: left;  
+  position: relative;  
+
+
+  h3{
+    font-family: 'latobold';    
+    font-size: 20px;
+    color: #000000;
+  }
+
+  p{
+    font-family: 'latoregular';    
+    font-size: 16px;
+    color: #5b5b5b;
+  }
+}
+
+.text__one{
+  position: absolute;
+  width: 440px;
+  left: 370px;
+  top: -50px;
+}
+
+.text__two{
+  position: absolute;
+  width: 430px;
+  top: 210px;
+  left: 500px;
+}
+
+.text__three{
+  position: absolute;
+  width: 465px;
+  top: 440px;
+  left: 570px;
+}
+
+.text__four{
+  position: absolute;
+  width: 476px;
+  top: 730px;
+  left: 500px;
+}
+
+.text__five{
+  position: absolute;
+  width: 460px;
+  top: 930px;
+  left: 430px;
+}

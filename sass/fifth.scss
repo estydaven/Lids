@@ -1,0 +1,148 @@
+.wrapper__sixth{
+  position: relative;
+  background: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 1190px;  
+  margin-bottom: 150px;
+
+  h1{
+    padding-top: 55px;
+    font-family: 'latobold';
+    font-size: 36px;
+    text-align: center;
+  }
+}
+
+.video{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.video__row{
+  display: flex;
+  width: 100%;
+}
+
+.videos{
+  width: 48%;
+  margin-right: 50px;
+  margin-bottom: 25px;
+
+  p{
+    font-family: 'latomedium';
+    font-size: 20px;
+  }
+}
+
+.iframe{
+  position:relative;
+  padding-bottom:56.25%;
+  padding-top:30px;
+  height: 250px;
+  overflow:hidden;
+  margin-bottom: 15px;
+  
+
+  iframe{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;  
+  }
+}
+
+.video__img{
+  flex: 1;  
+}
+
+.video__text{
+  flex: 1;
+
+  h2{
+    font-family: 'latobold';
+    font-size: 34px;
+  }
+
+  p{
+    font-family: 'latoregular';
+    font-size: 15px;
+  }
+}
+
+
+.wrapper__seventh{
+  position: relative;
+  height: 1500px;
+  margin-top: -200px;
+  background: url(../img/bg-4-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.opinion{
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  width: 780px;
+  height: auto;
+  background-color: #ffffff;
+}
+
+.opinion__item{
+  width: 600px;
+  &_left{
+    text-align: right;
+    margin-left: 70px;
+
+  }
+  &_right{
+    text-align: left;
+    margin-left: 90px;
+  }
+}
+
+.opinion__text{
+    margin-bottom: 110px;
+
+
+  h3{
+    font-family: 'HelveticaNeueCyr';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+  }
+  P{
+    font-family: 'HelveticaNeueCyr';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+  }
+}
+
+.opinion__pic-first{
+  position: absolute;
+  right: -50px;
+  top: 110px;
+}
+
+.opinion__pic-second{
+  position: absolute;
+  left: -50px;
+  top: 290px;
+}
+
+.opinion__pic-third{
+  position: absolute;
+  right: -50px;
+  top: 455px;
+}
+
+.opinion__header{
+  margin-left: 100px;
+  padding-top: 50px;
+}

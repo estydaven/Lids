@@ -1,0 +1,117 @@
+.wrapper__eighth {
+  position: relative;
+  height: 1050px;
+  background-color: #ffffff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.price__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+
+.price {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative; }
+  .price p {
+    position: absolute;
+    top: -30px;
+    left: 0; }
+
+.price__item {
+  width: 290px;
+  height: 240px;
+  margin-right: 40px;
+  margin-bottom: 80px;
+  position: relative;
+  -webkit-box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+          box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+  padding: 30px; }
+  .price__item h3 {
+    font-family: 'HelveticaNeueCyr';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    margin-bottom: 15px; }
+
+.price-item {
+  font-family: 'HelveticaNeueCyr';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 15px;
+  margin-left: 10px;
+  width: 240px; }
+  .price-item_bold {
+    font-size: 15px; }
+  .price-item:before {
+    content: "-";
+    display: block;
+    position: absolute;
+    left: 30px; }
+
+.price__descr {
+  font-family: 'HelveticaNeueCyr';
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+  margin-bottom: 40px; }
+
+.line__thing {
+  width: 100px;
+  height: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background: #444444; }
+
+.price__number {
+  font-family: 'HelveticaNeueCyr';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 17px;
+  margin-bottom: 10px; }
+
+.button__price {
+  outline: none;
+  text-decoration: none;
+  width: 120px;
+  margin-left: 50px;
+  color: #ffffff;
+  background: #f05c04;
+  padding: 7px;
+  border: none;
+  cursor: pointer;
+  -webkit-transition: .5s;
+  transition: .5s; }
+  .button__price_message {
+    width: 180px;
+    position: absolute;
+    bottom: 25px;
+    left: 0; }
+  .button__price_msg {
+    width: 150px;
+    position: absolute;
+    bottom: 15px;
+    left: 20px;
+    z-index: 31; }
+  .button__price:hover {
+    background: #cf530a; }
+
+.menu {
+  background: transparent;
+  border: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  right: 40px;
+  margin-top: 35px; }

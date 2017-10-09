@@ -1,0 +1,14 @@
+.popup
+    form.form(method='post', action='consult.php')
+
+            h1.popup__title.popup__title_cons  Заявка на консультацию
+            .popup__form
+                h3.popup__descr Оставьте свои контактные данные и я перезвоню вам
+                input.popup__name(type='text', name='name', required='required', placeholder='   Введите имя*')
+                input.popup__phone(type='text', name='phone', required='required', placeholder='   Введите телефон*')
+                input.popup__button(type='submit', name='sended', value='Отправить')
+            a.close(title='Закрыть', href='#close')
+
+
+
+
